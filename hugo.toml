@@ -1,70 +1,26 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.nanobanana-pro.vip/'
 languageCode = 'zh-cn'
-title = 'NanoBanana 中文版'
+title = 'NanoBanana中文版'
 theme = 'PaperMod'
-# 默认语言
-defaultContentLanguage = 'zh-cn'
-
-# ---------------------------------------------------------------------
-# 1. 定义语言种类 (简体、繁体、英文)
-# ---------------------------------------------------------------------
-[languages]
-  # 简体中文设置
-  [languages.zh-cn]
-    languageName = '简体中文'
-    contentDir = 'content/zh-cn' # 建议将内容分文件夹存放，管理更清晰
-    weight = 1
-
-    # 简体中文的菜单
-    [[languages.zh-cn.menu.main]]
-      name = "首页"
-      url = "/"
-      weight = 10
-    [[languages.zh-cn.menu.main]]
-      name = "功能"
-      url = "/features"
-      weight = 20
-    [[languages.zh-cn.menu.main]]
-      name = "教程"
-      url = "/tutorials"
-      weight = 30
-
-  # 繁体中文设置
-  [languages.zh-tw]
-    languageName = '繁體中文'
-    contentDir = 'content/zh-tw'
-    weight = 2
-
-    # 繁体中文的菜单
-    [[languages.zh-tw.menu.main]]
-      name = "首頁"
-      url = "/"
-      weight = 10
-    [[languages.zh-tw.menu.main]]
-      name = "功能"
-      url = "/features"
-      weight = 20
-    [[languages.zh-tw.menu.main]]
-      name = "教學"
-      url = "/tutorials"
-      weight = 30
-
-  # 英文设置
-  [languages.en]
-    languageName = 'English'
-    contentDir = 'content/en'
-    weight = 3
-
-    # 英文的菜单
-    [[languages.en.menu.main]]
-      name = "Home"
-      url = "/"
-      weight = 10
-    [[languages.en.menu.main]]
-      name = "Features"
-      url = "/features"
-      weight = 20
-    [[languages.en.menu.main]]
-      name = "Tutorials"
-      url = "/tutorials"
-      weight = 30
+[params]
+    # 指向 assets/css/extended/ 目录下的文件
+    assets.customCSS = ["css/custom.css"]
+[menus]
+  [[menus.main]]
+    name = "首页"
+    url = "/"
+    weight = 10
+  [[menus.main]]
+    name = "功能"
+    url = "/features"
+    weight = 20
+  [[menus.main]]
+    name = "教程"
+    url = "/tutorials"
+    weight = 30
+  [[menus.main]]
+    name = "下载"
+    url = "/doenload"
+    weight = 40
+[markup.goldmark.renderer]
+  unsafe = true

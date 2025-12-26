@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Star1225</title>
+    <title>NanoAI - 企业级 AI 生产力平台 on NanoBanana中文版</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Star1225</description>
+    <description>Recent content in NanoAI - 企业级 AI 生产力平台 on NanoBanana中文版</description>
     <generator>Hugo -- 0.147.4</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 24 Dec 2025 23:57:37 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 25 Dec 2025 13:30:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post By Gemini1225</title>
+      <title>Chenbo First Gemini Website</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Wed, 24 Dec 2025 23:57:37 +0800</pubDate>
+      <pubDate>Thu, 25 Dec 2025 13:30:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description></description>
     </item>
