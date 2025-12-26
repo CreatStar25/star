@@ -5,6 +5,8 @@ theme = 'PaperMod'
 [params]
     # 指向 assets/css/extended/ 目录下的文件
     assets.customCSS = ["css/custom.css"]
+[build]
+  ignoreFiles = ["\\.DS_Store$"]
 [menus]
   [[menus.main]]
     name = "首页"
