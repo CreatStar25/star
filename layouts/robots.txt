@@ -1,9 +1,0 @@
-User-agent: *
-Allow: /
-
-# 禁止爬取后台或临时文件 (如果有的话)
-Disallow: /admin/
-Disallow: /private/
-
-# 告诉爬虫你的站点地图在哪里 (非常重要！)
-Sitemap: {{ "sitemap.xml" | absURL }}
