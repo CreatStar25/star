@@ -1,0 +1,26 @@
+baseURL = 'https://www.nanobanana-pro.vip/'
+languageCode = 'zh-cn'
+title = 'NanoBanana中文版'
+theme = 'PaperMod'
+[params]
+    # 指向 assets/css/extended/ 目录下的文件
+    assets.customCSS = ["css/custom.css"]
+[menus]
+  [[menus.main]]
+    name = "首页"
+    url = "/"
+    weight = 10
+  [[menus.main]]
+    name = "功能"
+    url = "/features"
+    weight = 20
+  [[menus.main]]
+    name = "教程"
+    url = "/tutorials"
+    weight = 30
+  [[menus.main]]
+    name = "下载"
+    url = "/doenload"
+    weight = 40
+[markup.goldmark.renderer]
+  unsafe = true
